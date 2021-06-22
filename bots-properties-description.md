@@ -1,3 +1,7 @@
+---
+layout: default
+title: Bots-Properties-Description
+---
 # Untitled string in Bot entity Schema
 
 ```txt
@@ -8,7 +12,7 @@ Description of entity instance.
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                   |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :----------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [bots.json*](../out/entity/bots.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [bots.json*](bots.md) |
 
 ## description Type
 

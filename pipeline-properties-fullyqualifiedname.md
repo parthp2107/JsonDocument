@@ -8,7 +8,7 @@ Unique name that identifies a pipeline in the format 'ServiceName.PipelineName'
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------------ |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [pipeline.json*](../out/entity/data/pipeline.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [pipeline.json*](pipeline.md) |
 
 ## fullyQualifiedName Type
 
