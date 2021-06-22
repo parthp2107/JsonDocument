@@ -22,11 +22,11 @@ Types related to tag category
 
 | Property                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                |
 | :---------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [name](#name)                 | `string` | Required | cannot be null | [Types related to tag category](tagcategory-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/name")                 |
-| [description](#description)   | `string` | Required | cannot be null | [Types related to tag category](tagcategory-properties-description.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/description")   |
-| [categoryType](#categorytype) | `string` | Optional | cannot be null | [Types related to tag category](tagcategory-properties-categorytype.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/categoryType") |
-| [href](#href)                 | `string` | Optional | cannot be null | [Types related to tag category](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/href")                     |
-| [children](#children)         | `array`  | Optional | cannot be null | [Types related to tag category](tagcategory-properties-children.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/children")         |
+| [name](#name)                 | `string` | Required | cannot be null | [Types related to tag category](tagcategory-properties-name.md)                 |
+| [description](#description)   | `string` | Required | cannot be null | [Types related to tag category](tagcategory-properties-description.md)   |
+| [categoryType](#categorytype) | `string` | Optional | cannot be null | [Types related to tag category](tagcategory-properties-categorytype.md) |
+| [href](#href)                 | `string` | Optional | cannot be null | [Types related to tag category](common-definitions-href.md)                     |
+| [children](#children)         | `array`  | Optional | cannot be null | [Types related to tag category](tagcategory-properties-children.md)         |
 
 ## name
 
@@ -40,7 +40,7 @@ Name of the tag
 
 *   cannot be null
 
-*   defined in: [Types related to tag category](tagcategory-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/name")
+*   defined in: [Types related to tag category](tagcategory-properties-name.md)
 
 ### name Type
 
@@ -64,7 +64,7 @@ Description of the tag category
 
 *   cannot be null
 
-*   defined in: [Types related to tag category](tagcategory-properties-description.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/description")
+*   defined in: [Types related to tag category](tagcategory-properties-description.md)
 
 ### description Type
 
@@ -82,7 +82,7 @@ Type of tag category
 
 *   cannot be null
 
-*   defined in: [Types related to tag category](tagcategory-properties-categorytype.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/categoryType")
+*   defined in: [Types related to tag category](tagcategory-properties-categorytype.md)
 
 ### categoryType Type
 
@@ -111,7 +111,7 @@ Link to the resource corresponding to the tag category
 
 *   cannot be null
 
-*   defined in: [Types related to tag category](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/href")
+*   defined in: [Types related to tag category](common-definitions-href.md)
 
 ### href Type
 
@@ -133,7 +133,7 @@ Tags under this category
 
 *   cannot be null
 
-*   defined in: [Types related to tag category](tagcategory-properties-children.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/properties/children")
+*   defined in: [Types related to tag category](tagcategory-properties-children.md)
 
 ### children Type
 
@@ -173,13 +173,13 @@ Reference this group by using
 
 | Property                                  | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                            |
 | :---------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [name](#name-1)                           | `string`  | Required | cannot be null | [Types related to tag category](tagcategory-definitions-tag-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/name")                             |
-| [fullyQualifiedName](#fullyqualifiedname) | `string`  | Optional | cannot be null | [Types related to tag category](tagcategory-definitions-tag-properties-fullyqualifiedname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/fullyQualifiedName") |
-| [description](#description-1)             | `string`  | Required | cannot be null | [Types related to tag category](tagcategory-definitions-tag-properties-description.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/description")               |
-| [href](#href-1)                           | `string`  | Optional | cannot be null | [Types related to tag category](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/href")                                                 |
-| [deprecated](#deprecated)                 | `boolean` | Optional | cannot be null | [Types related to tag category](tagcategory-definitions-tag-properties-deprecated.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/deprecated")                 |
-| [tags](#tags)                             | `array`   | Optional | cannot be null | [Types related to tag category](tagcategory-definitions-tag-properties-tags.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/tags")                             |
-| [children](#children-1)                   | `array`   | Optional | cannot be null | [Types related to tag category](tagcategory-definitions-tag-properties-children.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/children")                     |
+| [name](#name-1)                           | `string`  | Required | cannot be null | [Types related to tag category](tagcategory-definitions-tag-properties-name.md)                             |
+| [fullyQualifiedName](#fullyqualifiedname) | `string`  | Optional | cannot be null | [Types related to tag category](tagcategory-definitions-tag-properties-fullyqualifiedname.md) |
+| [description](#description-1)             | `string`  | Required | cannot be null | [Types related to tag category](tagcategory-definitions-tag-properties-description.md)               |
+| [href](#href-1)                           | `string`  | Optional | cannot be null | [Types related to tag category](common-definitions-href.md)                                                 |
+| [deprecated](#deprecated)                 | `boolean` | Optional | cannot be null | [Types related to tag category](tagcategory-definitions-tag-properties-deprecated.md)                 |
+| [tags](#tags)                             | `array`   | Optional | cannot be null | [Types related to tag category](tagcategory-definitions-tag-properties-tags.md)                             |
+| [children](#children-1)                   | `array`   | Optional | cannot be null | [Types related to tag category](tagcategory-definitions-tag-properties-children.md)                     |
 
 ### name
 
@@ -193,7 +193,7 @@ Name of the tag
 
 *   cannot be null
 
-*   defined in: [Types related to tag category](tagcategory-definitions-tag-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/name")
+*   defined in: [Types related to tag category](tagcategory-definitions-tag-properties-name.md)
 
 #### name Type
 
@@ -217,7 +217,7 @@ Unique name of the tag of format Category.PrimaryTag.SecondaryTag
 
 *   cannot be null
 
-*   defined in: [Types related to tag category](tagcategory-definitions-tag-properties-fullyqualifiedname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/fullyQualifiedName")
+*   defined in: [Types related to tag category](tagcategory-definitions-tag-properties-fullyqualifiedname.md)
 
 #### fullyQualifiedName Type
 
@@ -235,7 +235,7 @@ Unique name of the tag category
 
 *   cannot be null
 
-*   defined in: [Types related to tag category](tagcategory-definitions-tag-properties-description.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/description")
+*   defined in: [Types related to tag category](tagcategory-definitions-tag-properties-description.md)
 
 #### description Type
 
@@ -255,7 +255,7 @@ Link to the resource corresponding to the tag
 
 *   cannot be null
 
-*   defined in: [Types related to tag category](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/href")
+*   defined in: [Types related to tag category](common-definitions-href.md)
 
 #### href Type
 
@@ -277,7 +277,7 @@ If the tag is deprecated
 
 *   cannot be null
 
-*   defined in: [Types related to tag category](tagcategory-definitions-tag-properties-deprecated.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/deprecated")
+*   defined in: [Types related to tag category](tagcategory-definitions-tag-properties-deprecated.md)
 
 #### deprecated Type
 
@@ -295,7 +295,7 @@ Fully qualified names of tags associated with this tag
 
 *   cannot be null
 
-*   defined in: [Types related to tag category](tagcategory-definitions-tag-properties-tags.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/tags")
+*   defined in: [Types related to tag category](tagcategory-definitions-tag-properties-tags.md)
 
 #### tags Type
 
@@ -313,7 +313,7 @@ Tags under this tag group or empty for tags at leaf level
 
 *   cannot be null
 
-*   defined in: [Types related to tag category](tagcategory-definitions-tag-properties-children.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tag/properties/children")
+*   defined in: [Types related to tag category](tagcategory-definitions-tag-properties-children.md)
 
 #### children Type
 

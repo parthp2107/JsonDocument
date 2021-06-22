@@ -22,7 +22,7 @@ Data classification related types
 
 | Property      | Type    | Required | Nullable       | Defined by                                                                                                                                                                                                                   |
 | :------------ | :------ | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [tags](#tags) | `array` | Optional | cannot be null | [Data classification related types](classification-properties-tags.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/properties/tags") |
+| [tags](#tags) | `array` | Optional | cannot be null | [Data classification related types](classification-properties-tags.md) |
 
 ## tags
 
@@ -36,7 +36,7 @@ Data classification related types
 
 *   cannot be null
 
-*   defined in: [Data classification related types](classification-properties-tags.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/properties/tags")
+*   defined in: [Data classification related types](classification-properties-tags.md)
 
 ### tags Type
 
@@ -54,10 +54,10 @@ Reference this group by using
 
 | Property                              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                             |
 | :------------------------------------ | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [name](#name)                         | `string` | Optional | cannot be null | [Data classification related types](classification-definitions-personaldata-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/name")                         |
-| [documentation](#documentation)       | `string` | Optional | cannot be null | [Data classification related types](classification-definitions-personaldata-properties-documentation.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/documentation")       |
-| [piiType](#piitype)                   | `string` | Optional | cannot be null | [Data classification related types](classification-definitions-personaldata-properties-piitype.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/piiType")                   |
-| [personalDataType](#personaldatatype) | `string` | Optional | cannot be null | [Data classification related types](classification-definitions-personaldata-properties-personaldatatype.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/personalDataType") |
+| [name](#name)                         | `string` | Optional | cannot be null | [Data classification related types](classification-definitions-personaldata-properties-name.md)                         |
+| [documentation](#documentation)       | `string` | Optional | cannot be null | [Data classification related types](classification-definitions-personaldata-properties-documentation.md)       |
+| [piiType](#piitype)                   | `string` | Optional | cannot be null | [Data classification related types](classification-definitions-personaldata-properties-piitype.md)                   |
+| [personalDataType](#personaldatatype) | `string` | Optional | cannot be null | [Data classification related types](classification-definitions-personaldata-properties-personaldatatype.md) |
 
 ### name
 
@@ -71,7 +71,7 @@ Name of PII tag
 
 *   cannot be null
 
-*   defined in: [Data classification related types](classification-definitions-personaldata-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/name")
+*   defined in: [Data classification related types](classification-definitions-personaldata-properties-name.md)
 
 #### name Type
 
@@ -89,7 +89,7 @@ Name of PII tag
 
 *   cannot be null
 
-*   defined in: [Data classification related types](classification-definitions-personaldata-properties-documentation.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/documentation")
+*   defined in: [Data classification related types](classification-definitions-personaldata-properties-documentation.md)
 
 #### documentation Type
 
@@ -107,7 +107,7 @@ PII tag type
 
 *   cannot be null
 
-*   defined in: [Data classification related types](classification-definitions-personaldata-properties-piitype.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/piiType")
+*   defined in: [Data classification related types](classification-definitions-personaldata-properties-piitype.md)
 
 #### piiType Type
 
@@ -135,7 +135,7 @@ Personal data tag type
 
 *   cannot be null
 
-*   defined in: [Data classification related types](classification-definitions-personaldata-properties-personaldatatype.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/classification.json#/definitions/personalData/properties/personalDataType")
+*   defined in: [Data classification related types](classification-definitions-personaldata-properties-personaldatatype.md)
 
 #### personalDataType Type
 

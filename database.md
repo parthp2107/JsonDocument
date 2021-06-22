@@ -22,15 +22,15 @@ Entity that represents a database
 
 | Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                        |
 | :---------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)                                 | `string` | Optional | cannot be null | [Database entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/id")                                |
-| [name](#name)                             | `string` | Required | cannot be null | [Database entity](database-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/name")                             |
-| [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Database entity](database-properties-fullyqualifiedname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/fullyQualifiedName") |
-| [description](#description)               | `string` | Optional | cannot be null | [Database entity](database-properties-description.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/description")               |
-| [href](#href)                             | `string` | Optional | cannot be null | [Database entity](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/href")                              |
-| [owner](#owner)                           | `object` | Optional | cannot be null | [Database entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/owner")                  |
-| [service](#service)                       | `object` | Required | cannot be null | [Database entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/service")                |
-| [usageSummary](#usagesummary)             | `object` | Optional | cannot be null | [Database entity](common-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/usageSummary")              |
-| [tables](#tables)                         | `array`  | Optional | cannot be null | [Database entity](common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/tables")             |
+| [id](#id)                                 | `string` | Optional | cannot be null | [Database entity](common-definitions-uuid.md)                                |
+| [name](#name)                             | `string` | Required | cannot be null | [Database entity](database-properties-name.md)                             |
+| [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Database entity](database-properties-fullyqualifiedname.md) |
+| [description](#description)               | `string` | Optional | cannot be null | [Database entity](database-properties-description.md)               |
+| [href](#href)                             | `string` | Optional | cannot be null | [Database entity](common-definitions-href.md)                              |
+| [owner](#owner)                           | `object` | Optional | cannot be null | [Database entity](common-definitions-entityreference.md)                  |
+| [service](#service)                       | `object` | Required | cannot be null | [Database entity](common-definitions-entityreference.md)                |
+| [usageSummary](#usagesummary)             | `object` | Optional | cannot be null | [Database entity](common-definitions-usagedetails.md )              |
+| [tables](#tables)                         | `array`  | Optional | cannot be null | [Database entity](common-definitions-entityreferencelist.md)             |
 
 ## id
 
@@ -44,7 +44,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Database entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/id")
+*   defined in: [Database entity](common-definitions-uuid.md)
 
 ### id Type
 
@@ -66,7 +66,7 @@ Name that identifies the database
 
 *   cannot be null
 
-*   defined in: [Database entity](database-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/name")
+*   defined in: [Database entity](database-properties-name.md)
 
 ### name Type
 
@@ -98,7 +98,7 @@ Name that uniquely identifies a database in the format 'ServiceName.DatabaseName
 
 *   cannot be null
 
-*   defined in: [Database entity](database-properties-fullyqualifiedname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/fullyQualifiedName")
+*   defined in: [Database entity](database-properties-fullyqualifiedname.md)
 
 ### fullyQualifiedName Type
 
@@ -116,7 +116,7 @@ Description of the database instance. What it has and how to use it.
 
 *   cannot be null
 
-*   defined in: [Database entity](database-properties-description.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/description")
+*   defined in: [Database entity](database-properties-description.md)
 
 ### description Type
 
@@ -136,7 +136,7 @@ Link to the resource corresponding to this entity
 
 *   cannot be null
 
-*   defined in: [Database entity](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/href")
+*   defined in: [Database entity](common-definitions-href.md)
 
 ### href Type
 
@@ -160,7 +160,7 @@ Owner of this database
 
 *   cannot be null
 
-*   defined in: [Database entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/owner")
+*   defined in: [Database entity](common-definitions-entityreference.md)
 
 ### owner Type
 
@@ -180,7 +180,7 @@ Link to the database cluster/service where this database is hosted in
 
 *   cannot be null
 
-*   defined in: [Database entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/service")
+*   defined in: [Database entity](common-definitions-entityreference.md)
 
 ### service Type
 
@@ -200,7 +200,7 @@ Latest usage information for this database
 
 *   cannot be null
 
-*   defined in: [Database entity](common-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/usageSummary")
+*   defined in: [Database entity](common-definitions-usagedetails.md )
 
 ### usageSummary Type
 
@@ -218,7 +218,7 @@ References to tables in the database
 
 *   cannot be null
 
-*   defined in: [Database entity](common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/database.json#/properties/tables")
+*   defined in: [Database entity](common-definitions-entityreferencelist.md)
 
 ### tables Type
 

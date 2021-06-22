@@ -22,21 +22,21 @@ Schema corresponding to a table that belongs to a database
 
 | Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                               |
 | :---------------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)                                 | `string` | Optional | cannot be null | [Table entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/id")                             |
-| [name](#name)                             | `string` | Required | cannot be null | [Table entity](table-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/name")                             |
-| [description](#description)               | `string` | Optional | cannot be null | [Table entity](table-properties-description.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/description")               |
-| [href](#href)                             | `string` | Optional | cannot be null | [Table entity](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/href")                           |
-| [tableType](#tabletype)                   | `string` | Optional | cannot be null | [Table entity](table-properties-tabletype.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tableType")                   |
-| [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Table entity](table-properties-fullyqualifiedname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/fullyQualifiedName") |
-| [columns](#columns)                       | `array`  | Required | cannot be null | [Table entity](table-properties-columns.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/columns")                       |
-| [tableConstraints](#tableconstraints)     | `array`  | Optional | cannot be null | [Table entity](table-properties-tableconstraints.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tableConstraints")     |
-| [usageSummary](#usagesummary)             | `object` | Optional | cannot be null | [Table entity](common-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/usageSummary")           |
-| [owner](#owner)                           | `object` | Optional | cannot be null | [Table entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/owner")               |
-| [followers](#followers)                   | `array`  | Optional | cannot be null | [Table entity](common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/followers")       |
-| [database](#database)                     | `object` | Optional | cannot be null | [Table entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/database")            |
-| [tags](#tags)                             | `array`  | Optional | cannot be null | [Table entity](table-properties-tags.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tags")                             |
-| [joins](#joins)                           | `array`  | Optional | cannot be null | [Table entity](table-properties-joins.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/joins")                           |
-| [sampleData](#sampledata)                 | `object` | Optional | cannot be null | [Table entity](table-definitions-tabledata.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/sampleData")                 |
+| [id](#id)                                 | `string` | Optional | cannot be null | [Table entity](common-definitions-uuid.md)                             |
+| [name](#name)                             | `string` | Required | cannot be null | [Table entity](table-properties-name.md)                             |
+| [description](#description)               | `string` | Optional | cannot be null | [Table entity](table-properties-description.md)               |
+| [href](#href)                             | `string` | Optional | cannot be null | [Table entity](common-definitions-href.md)                           |
+| [tableType](#tabletype)                   | `string` | Optional | cannot be null | [Table entity](table-properties-tabletype.md)                   |
+| [fullyQualifiedName](#fullyqualifiedname) | `string` | Optional | cannot be null | [Table entity](table-properties-fullyqualifiedname.md) |
+| [columns](#columns)                       | `array`  | Required | cannot be null | [Table entity](table-properties-columns.md)                       |
+| [tableConstraints](#tableconstraints)     | `array`  | Optional | cannot be null | [Table entity](table-properties-tableconstraints.md)     |
+| [usageSummary](#usagesummary)             | `object` | Optional | cannot be null | [Table entity](common-definitions-usagedetails.md)           |
+| [owner](#owner)                           | `object` | Optional | cannot be null | [Table entity](common-definitions-entityreference.md)               |
+| [followers](#followers)                   | `array`  | Optional | cannot be null | [Table entity](common-definitions-entityreferencelist.md)       |
+| [database](#database)                     | `object` | Optional | cannot be null | [Table entity](common-definitions-entityreference.md)            |
+| [tags](#tags)                             | `array`  | Optional | cannot be null | [Table entity](table-properties-tags.md)                             |
+| [joins](#joins)                           | `array`  | Optional | cannot be null | [Table entity](table-properties-joins.md)                           |
+| [sampleData](#sampledata)                 | `object` | Optional | cannot be null | [Table entity](table-definitions-tabledata.md)                 |
 
 ## id
 
@@ -50,7 +50,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [Table entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/id")
+*   defined in: [Table entity](common-definitions-uuid.md)
 
 ### id Type
 
@@ -72,7 +72,7 @@ Local name (not fully qualified name) of the table
 
 *   cannot be null
 
-*   defined in: [Table entity](table-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/name")
+*   defined in: [Table entity](table-properties-name.md)
 
 ### name Type
 
@@ -104,7 +104,7 @@ Description of the table
 
 *   cannot be null
 
-*   defined in: [Table entity](table-properties-description.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/description")
+*   defined in: [Table entity](table-properties-description.md)
 
 ### description Type
 
@@ -124,7 +124,7 @@ Link to this table resource
 
 *   cannot be null
 
-*   defined in: [Table entity](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/href")
+*   defined in: [Table entity](common-definitions-href.md)
 
 ### href Type
 
@@ -146,7 +146,7 @@ Type for capturing a column in a table
 
 *   cannot be null
 
-*   defined in: [Table entity](table-properties-tabletype.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tableType")
+*   defined in: [Table entity](table-properties-tabletype.md)
 
 ### tableType Type
 
@@ -176,7 +176,7 @@ Fully qualified name of the table in the form serviceName.databaseName.tableName
 
 *   cannot be null
 
-*   defined in: [Table entity](table-properties-fullyqualifiedname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/fullyQualifiedName")
+*   defined in: [Table entity](table-properties-fullyqualifiedname.md)
 
 ### fullyQualifiedName Type
 
@@ -194,7 +194,7 @@ Columns in the table
 
 *   cannot be null
 
-*   defined in: [Table entity](table-properties-columns.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/columns")
+*   defined in: [Table entity](table-properties-columns.md)
 
 ### columns Type
 
@@ -212,7 +212,7 @@ Columns in the table
 
 *   cannot be null
 
-*   defined in: [Table entity](table-properties-tableconstraints.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tableConstraints")
+*   defined in: [Table entity](table-properties-tableconstraints.md)
 
 ### tableConstraints Type
 
@@ -232,7 +232,7 @@ Latest usage information for this table
 
 *   cannot be null
 
-*   defined in: [Table entity](common-definitions-usagedetails.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/usageSummary")
+*   defined in: [Table entity](common-definitions-usagedetails.md)
 
 ### usageSummary Type
 
@@ -252,7 +252,7 @@ Owner of this table
 
 *   cannot be null
 
-*   defined in: [Table entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/owner")
+*   defined in: [Table entity](common-definitions-entityreference.md)
 
 ### owner Type
 
@@ -270,7 +270,7 @@ Followers of this table
 
 *   cannot be null
 
-*   defined in: [Table entity](common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/followers")
+*   defined in: [Table entity](common-definitions-entityreferencelist.md)
 
 ### followers Type
 
@@ -290,7 +290,7 @@ Reference to Database that contains this table
 
 *   cannot be null
 
-*   defined in: [Table entity](common-definitions-entityreference.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/database")
+*   defined in: [Table entity](common-definitions-entityreference.md)
 
 ### database Type
 
@@ -308,7 +308,7 @@ Tags for this table
 
 *   cannot be null
 
-*   defined in: [Table entity](table-properties-tags.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/tags")
+*   defined in: [Table entity](table-properties-tags.md)
 
 ### tags Type
 
@@ -326,7 +326,7 @@ Details of other tables this table is frequently joined with
 
 *   cannot be null
 
-*   defined in: [Table entity](table-properties-joins.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/joins")
+*   defined in: [Table entity](table-properties-joins.md)
 
 ### joins Type
 
@@ -344,7 +344,7 @@ Information on other tables that this table column is frequently joined with
 
 *   cannot be null
 
-*   defined in: [Table entity](table-definitions-tabledata.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/properties/sampleData")
+*   defined in: [Table entity](table-definitions-tabledata.md)
 
 ### sampleData Type
 
@@ -395,8 +395,8 @@ Reference this group by using
 
 | Property                          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                               |
 | :-------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [constraintType](#constrainttype) | `string` | Optional | cannot be null | [Table entity](table-definitions-tableconstraint-properties-constrainttype.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableConstraint/properties/constraintType") |
-| [columns](#columns-1)             | `array`  | Optional | cannot be null | [Table entity](table-definitions-tableconstraint-properties-columns.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableConstraint/properties/columns")               |
+| [constraintType](#constrainttype) | `string` | Optional | cannot be null | [Table entity](table-definitions-tableconstraint-properties-constrainttype.md) |
+| [columns](#columns-1)             | `array`  | Optional | cannot be null | [Table entity](table-definitions-tableconstraint-properties-columns.md)               |
 
 ### constraintType
 
@@ -410,7 +410,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Table entity](table-definitions-tableconstraint-properties-constrainttype.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableConstraint/properties/constraintType")
+*   defined in: [Table entity](table-definitions-tableconstraint-properties-constrainttype.md)
 
 #### constraintType Type
 
@@ -438,7 +438,7 @@ List of column names corresponding to the constraint
 
 *   cannot be null
 
-*   defined in: [Table entity](table-definitions-tableconstraint-properties-columns.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableConstraint/properties/columns")
+*   defined in: [Table entity](table-definitions-tableconstraint-properties-columns.md)
 
 #### columns Type
 
@@ -487,13 +487,13 @@ Reference this group by using
 
 | Property                                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                     |
 | :------------------------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [name](#name-1)                             | `string`  | Required | cannot be null | [Table entity](table-definitions-column-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/name")                             |
-| [columnDataType](#columndatatype)           | `string`  | Required | cannot be null | [Table entity](table-definitions-column-properties-columndatatype.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/columnDataType")         |
-| [description](#description-1)               | `string`  | Optional | cannot be null | [Table entity](table-definitions-column-properties-description.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/description")               |
-| [fullyQualifiedName](#fullyqualifiedname-1) | `string`  | Optional | cannot be null | [Table entity](table-definitions-column-properties-fullyqualifiedname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/fullyQualifiedName") |
-| [tags](#tags-1)                             | `array`   | Optional | cannot be null | [Table entity](table-definitions-column-properties-tags.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/tags")                             |
-| [columnConstraint](#columnconstraint)       | `string`  | Optional | cannot be null | [Table entity](table-definitions-column-properties-columnconstraint.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/columnConstraint")     |
-| [ordinalPosition](#ordinalposition)         | `integer` | Optional | cannot be null | [Table entity](table-definitions-column-properties-ordinalposition.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/ordinalPosition")       |
+| [name](#name-1)                             | `string`  | Required | cannot be null | [Table entity](table-definitions-column-properties-name.md)                             |
+| [columnDataType](#columndatatype)           | `string`  | Required | cannot be null | [Table entity](table-definitions-column-properties-columndatatype.md)         |
+| [description](#description-1)               | `string`  | Optional | cannot be null | [Table entity](table-definitions-column-properties-description.md)               |
+| [fullyQualifiedName](#fullyqualifiedname-1) | `string`  | Optional | cannot be null | [Table entity](table-definitions-column-properties-fullyqualifiedname.md) |
+| [tags](#tags-1)                             | `array`   | Optional | cannot be null | [Table entity](table-definitions-column-properties-tags.md)                             |
+| [columnConstraint](#columnconstraint)       | `string`  | Optional | cannot be null | [Table entity](table-definitions-column-properties-columnconstraint.md)     |
+| [ordinalPosition](#ordinalposition)         | `integer` | Optional | cannot be null | [Table entity](table-definitions-column-properties-ordinalposition.md)       |
 
 ### name
 
@@ -507,7 +507,7 @@ Local name (not fully qualified name) of the column
 
 *   cannot be null
 
-*   defined in: [Table entity](table-definitions-column-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/name")
+*   defined in: [Table entity](table-definitions-column-properties-name.md)
 
 #### name Type
 
@@ -539,7 +539,7 @@ Type for capturing a column in a table
 
 *   cannot be null
 
-*   defined in: [Table entity](table-definitions-column-properties-columndatatype.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/columnDataType")
+*   defined in: [Table entity](table-definitions-column-properties-columndatatype.md)
 
 #### columnDataType Type
 
@@ -597,7 +597,7 @@ Description of the column
 
 *   cannot be null
 
-*   defined in: [Table entity](table-definitions-column-properties-description.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/description")
+*   defined in: [Table entity](table-definitions-column-properties-description.md)
 
 #### description Type
 
@@ -615,7 +615,7 @@ Fully qualified name of the column that includes serviceName.databaseName.tableN
 
 *   cannot be null
 
-*   defined in: [Table entity](table-definitions-column-properties-fullyqualifiedname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/fullyQualifiedName")
+*   defined in: [Table entity](table-definitions-column-properties-fullyqualifiedname.md)
 
 #### fullyQualifiedName Type
 
@@ -639,7 +639,7 @@ Tags associated with the column
 
 *   cannot be null
 
-*   defined in: [Table entity](table-definitions-column-properties-tags.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/tags")
+*   defined in: [Table entity](table-definitions-column-properties-tags.md)
 
 #### tags Type
 
@@ -657,7 +657,7 @@ Column constraint
 
 *   cannot be null
 
-*   defined in: [Table entity](table-definitions-column-properties-columnconstraint.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/columnConstraint")
+*   defined in: [Table entity](table-definitions-column-properties-columnconstraint.md)
 
 #### columnConstraint Type
 
@@ -694,7 +694,7 @@ Ordinal position of the column
 
 *   cannot be null
 
-*   defined in: [Table entity](table-definitions-column-properties-ordinalposition.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/column/properties/ordinalPosition")
+*   defined in: [Table entity](table-definitions-column-properties-ordinalposition.md)
 
 #### ordinalPosition Type
 
@@ -710,8 +710,8 @@ Reference this group by using
 
 | Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                             |
 | :------------------------ | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [columnName](#columnname) | `string` | Optional | cannot be null | [Table entity](table-definitions-columnjoin-properties-columnname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoin/properties/columnName") |
-| [joinedWith](#joinedwith) | `array`  | Optional | cannot be null | [Table entity](table-definitions-columnjoin-properties-joinedwith.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoin/properties/joinedWith") |
+| [columnName](#columnname) | `string` | Optional | cannot be null | [Table entity](table-definitions-columnjoin-properties-columnname.md) |
+| [joinedWith](#joinedwith) | `array`  | Optional | cannot be null | [Table entity](table-definitions-columnjoin-properties-joinedwith.md) |
 
 ### columnName
 
@@ -725,7 +725,7 @@ Local name (not fully qualified name) of the column
 
 *   cannot be null
 
-*   defined in: [Table entity](table-definitions-columnjoin-properties-columnname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoin/properties/columnName")
+*   defined in: [Table entity](table-definitions-columnjoin-properties-columnname.md)
 
 #### columnName Type
 
@@ -757,7 +757,7 @@ Fully qualified names of the columns that this column is joined with
 
 *   cannot be null
 
-*   defined in: [Table entity](table-definitions-columnjoin-properties-joinedwith.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/columnJoin/properties/joinedWith")
+*   defined in: [Table entity](table-definitions-columnjoin-properties-joinedwith.md)
 
 #### joinedWith Type
 
@@ -773,8 +773,8 @@ Reference this group by using
 
 | Property              | Type    | Required | Nullable       | Defined by                                                                                                                                                                                                                                     |
 | :-------------------- | :------ | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [columns](#columns-2) | `array` | Optional | cannot be null | [Table entity](table-definitions-tabledata-properties-columns.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableData/properties/columns") |
-| [rows](#rows)         | `array` | Optional | cannot be null | [Table entity](table-definitions-tabledata-properties-rows.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableData/properties/rows")       |
+| [columns](#columns-2) | `array` | Optional | cannot be null | [Table entity](table-definitions-tabledata-properties-columns.md) |
+| [rows](#rows)         | `array` | Optional | cannot be null | [Table entity](table-definitions-tabledata-properties-rows.md)       |
 
 ### columns
 
@@ -788,7 +788,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Table entity](table-definitions-tabledata-properties-columns.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableData/properties/columns")
+*   defined in: [Table entity](table-definitions-tabledata-properties-columns.md)
 
 #### columns Type
 
@@ -806,7 +806,7 @@ Data for a multiple rows of the table
 
 *   cannot be null
 
-*   defined in: [Table entity](table-definitions-tabledata-properties-rows.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/data/table.json#/definitions/tableData/properties/rows")
+*   defined in: [Table entity](table-definitions-tabledata-properties-rows.md)
 
 #### rows Type
 

@@ -22,8 +22,8 @@ Type used for capturing usage details of an entity class
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                     |
 | :---------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [entity](#entity) | `string` | Optional | cannot be null | [Usage details for an entity class](categoryusage-properties-entity.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/categoryUsage.json#/properties/entity") |
-| [usage](#usage)   | `array`  | Required | cannot be null | [Usage details for an entity class](categoryusage-properties-usage.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/categoryUsage.json#/properties/usage")   |
+| [entity](#entity) | `string` | Optional | cannot be null | [Usage details for an entity class](categoryusage-properties-entity.md)                                                                                                                                                        |
+| [usage](#usage)   | `array`  | Required | cannot be null | [Usage details for an entity class](categoryusage-properties-usage.md)                                                                                                                                                         |
 
 ## entity
 
@@ -37,7 +37,7 @@ Name of the entity class for which usage is returned
 
 *   cannot be null
 
-*   defined in: [Usage details for an entity class](categoryusage-properties-entity.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/categoryUsage.json#/properties/entity")
+*   defined in: [Usage details for an entity class](categoryusage-properties-entity.md)
 
 ### entity Type
 
@@ -55,7 +55,7 @@ List usage details per day
 
 *   cannot be null
 
-*   defined in: [Usage details for an entity class](categoryusage-properties-usage.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/categoryUsage.json#/properties/usage")
+*   defined in: [Usage details for an entity class](categoryusage-properties-usage.md)
 
 ### usage Type
 

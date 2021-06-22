@@ -22,17 +22,17 @@ User entity that is part of an organization
 
 | Property                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                      |
 | :-------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)                   | `string`  | Required | cannot be null | [User entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/id")                     |
-| [name](#name)               | `string`  | Required | cannot be null | [User entity](user-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/name")                      |
-| [displayName](#displayname) | `string`  | Optional | cannot be null | [User entity](user-properties-displayname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/displayName")        |
-| [href](#href)               | `string`  | Required | cannot be null | [User entity](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/href")                   |
-| [timezone](#timezone)       | `string`  | Optional | cannot be null | [User entity](user-properties-timezone.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/timezone")              |
-| [deleted](#deleted)         | `boolean` | Optional | cannot be null | [User entity](user-properties-deleted.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/deleted")                |
-| [isBot](#isbot)             | `boolean` | Optional | cannot be null | [User entity](user-properties-isbot.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/isBot")                    |
-| [profile](#profile)         | `object`  | Optional | cannot be null | [User entity](common-definitions-profile.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/profile")             |
-| [teams](#teams)             | `array`   | Optional | cannot be null | [User entity](common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/teams")   |
-| [owns](#owns)               | `array`   | Optional | cannot be null | [User entity](common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/owns")    |
-| [follows](#follows)         | `array`   | Optional | cannot be null | [User entity](common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/follows") |
+| [id](#id)                   | `string`  | Required | cannot be null | [User entity](common-definitions-uuid.md)                     |
+| [name](#name)               | `string`  | Required | cannot be null | [User entity](user-properties-name.md)                      |
+| [displayName](#displayname) | `string`  | Optional | cannot be null | [User entity](user-properties-displayname.md)        |
+| [href](#href)               | `string`  | Required | cannot be null | [User entity](common-definitions-href.md)                   |
+| [timezone](#timezone)       | `string`  | Optional | cannot be null | [User entity](user-properties-timezone.md)              |
+| [deleted](#deleted)         | `boolean` | Optional | cannot be null | [User entity](user-properties-deleted.md)                |
+| [isBot](#isbot)             | `boolean` | Optional | cannot be null | [User entity](user-properties-isbot.md)                    |
+| [profile](#profile)         | `object`  | Optional | cannot be null | [User entity](common-definitions-profile.md)             |
+| [teams](#teams)             | `array`   | Optional | cannot be null | [User entity](common-definitions-entityreferencelist.md)   |
+| [owns](#owns)               | `array`   | Optional | cannot be null | [User entity](common-definitions-entityreferencelist.md)    |
+| [follows](#follows)         | `array`   | Optional | cannot be null | [User entity](common-definitions-entityreferencelist.md) |
 
 ## id
 
@@ -46,7 +46,7 @@ Unique id used to identify an entity
 
 *   cannot be null
 
-*   defined in: [User entity](common-definitions-uuid.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/id")
+*   defined in: [User entity](common-definitions-uuid.md)
 
 ### id Type
 
@@ -68,7 +68,7 @@ Name that identifies the this entity instance uniquely. Same as id if when name 
 
 *   cannot be null
 
-*   defined in: [User entity](user-properties-name.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/name")
+*   defined in: [User entity](user-properties-name.md)
 
 ### name Type
 
@@ -92,7 +92,7 @@ Name used for display purposes. Example 'FirstName LastName'
 
 *   cannot be null
 
-*   defined in: [User entity](user-properties-displayname.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/displayName")
+*   defined in: [User entity](user-properties-displayname.md)
 
 ### displayName Type
 
@@ -112,7 +112,7 @@ Link to the resource corresponding to this entity
 
 *   cannot be null
 
-*   defined in: [User entity](common-definitions-href.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/href")
+*   defined in: [User entity](common-definitions-href.md)
 
 ### href Type
 
@@ -134,7 +134,7 @@ Timezone of the user
 
 *   cannot be null
 
-*   defined in: [User entity](user-properties-timezone.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/timezone")
+*   defined in: [User entity](user-properties-timezone.md)
 
 ### timezone Type
 
@@ -156,7 +156,7 @@ Timezone of the user
 
 *   cannot be null
 
-*   defined in: [User entity](user-properties-deleted.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/deleted")
+*   defined in: [User entity](user-properties-deleted.md)
 
 ### deleted Type
 
@@ -174,7 +174,7 @@ Timezone of the user
 
 *   cannot be null
 
-*   defined in: [User entity](user-properties-isbot.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/isBot")
+*   defined in: [User entity](user-properties-isbot.md)
 
 ### isBot Type
 
@@ -194,7 +194,7 @@ Timezone of the user
 
 *   cannot be null
 
-*   defined in: [User entity](common-definitions-profile.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/profile")
+*   defined in: [User entity](common-definitions-profile.md)
 
 ### profile Type
 
@@ -212,7 +212,7 @@ Teams that the user belongs to
 
 *   cannot be null
 
-*   defined in: [User entity](common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/teams")
+*   defined in: [User entity](common-definitions-entityreferencelist.md)
 
 ### teams Type
 
@@ -230,7 +230,7 @@ Entities owned by the user
 
 *   cannot be null
 
-*   defined in: [User entity](common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/owns")
+*   defined in: [User entity](common-definitions-entityreferencelist.md)
 
 ### owns Type
 
@@ -248,7 +248,7 @@ Entities followed by the user
 
 *   cannot be null
 
-*   defined in: [User entity](common-definitions-entityreferencelist.md "https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json#/properties/follows")
+*   defined in: [User entity](common-definitions-entityreferencelist.md)
 
 ### follows Type
 
