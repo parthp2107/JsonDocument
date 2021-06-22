@@ -211,7 +211,7 @@ Reference this group by using
 
 | Property                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                    |
 | :-------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [id](#id)                   | `string` | Required | cannot be null | [Common types](common-definitions-entityreference-properties-id.md)                   |
+| [id](#id)                   | `string` | Required | cannot be null | [Common types](common-definitions-uuid.md)                   |
 | [type](#type)               | `string` | Required | cannot be null | [Common types](common-definitions-entityreference-properties-type.md)               |
 | [name](#name)               | `string` | Optional | cannot be null | [Common types](common-definitions-entityreference-properties-name.md)               |
 | [description](#description) | `string` | Optional | cannot be null | [Common types](common-definitions-entityreference-properties-description.md) |
