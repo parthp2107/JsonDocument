@@ -1,3 +1,8 @@
+---
+layout: default
+title: bots
+permalink: /bots.md/
+---
 # Bot entity Schema
 
 ```txt
