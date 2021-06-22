@@ -2,7 +2,7 @@
 
 ## Top-level Schemas
 
-*   [Bot entity](./bots.md "Bot entity to capture the details of a bot") – `https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json`
+*   [Bot entity](bots.md) – `https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/bots.json`
 
 *   [Common types](./common.md "Common reusable types") – `https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/common.json`
 
