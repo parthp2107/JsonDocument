@@ -1,3 +1,7 @@
+---
+layout: default
+title: Common-Definitions-Href
+---
 # Untitled string in Common types Schema
 
 ```txt

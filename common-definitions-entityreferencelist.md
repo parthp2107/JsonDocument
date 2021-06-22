@@ -1,3 +1,7 @@
+---
+layout: default
+title: Common-Definitions-EntityReferenceList
+---
 # Untitled array in Table entity Schema
 
 ```txt

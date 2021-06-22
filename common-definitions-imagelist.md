@@ -1,3 +1,7 @@
+---
+layout: default
+title: Common-Definitions-Imagelist
+---
 # Untitled object in Common types Schema
 
 ```txt

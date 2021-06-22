@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled object in Update Database service entity request Schema
 
 ```txt

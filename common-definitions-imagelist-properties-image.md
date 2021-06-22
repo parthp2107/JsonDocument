@@ -1,3 +1,7 @@
+---
+layout: default
+title: Common-Definitions-Imagelist-Properties-Image
+---
 # Untitled string in Common types Schema
 
 ```txt

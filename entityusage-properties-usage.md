@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled array in Usage details of an entity Schema
 
 ```txt

@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled boolean in User entity Schema
 
 ```txt

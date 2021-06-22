@@ -1,3 +1,7 @@
+---
+layout: default
+title: Collectiondescriptor-Definitions-Collectioninfo-Properties-Href
+---
 # Untitled string in Schema for collection descriptor Schema
 
 ```txt

@@ -1,3 +1,7 @@
+---
+layout: default
+title: Classification-Properties-Tags
+---
 # Untitled array in Data classification related types Schema
 
 ```txt

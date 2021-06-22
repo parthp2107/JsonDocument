@@ -1,3 +1,7 @@
+---
+layout: default
+title: Common-Definitions-DateTime
+---
 # Untitled string in Common types Schema
 
 ```txt

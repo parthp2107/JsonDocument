@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled string in Create Database service entity request Schema
 
 ```txt

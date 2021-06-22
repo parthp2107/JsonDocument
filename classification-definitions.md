@@ -1,3 +1,7 @@
+---
+layout: default
+title: Classification-Definitions
+---
 # Untitled undefined type in Data classification related types Schema
 
 ```txt

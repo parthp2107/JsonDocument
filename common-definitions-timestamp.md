@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled string in Catalog application software version Schema
 
 ```txt

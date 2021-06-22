@@ -1,3 +1,6 @@
+---
+layout: default
+----
 # Untitled object in Request to create User entity Schema
 
 ```txt

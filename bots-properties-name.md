@@ -1,3 +1,7 @@
+---
+layout: default
+title: Bots-Properties-Name
+---
 # Untitled string in Bot entity Schema
 
 ```txt

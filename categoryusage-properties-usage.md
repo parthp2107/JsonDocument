@@ -1,3 +1,7 @@
+---
+layout: default
+title: CategoryUsage-Properties-Usage
+---
 # Untitled array in Usage details for an entity class Schema
 
 ```txt

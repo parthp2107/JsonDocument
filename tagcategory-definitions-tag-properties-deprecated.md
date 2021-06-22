@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled boolean in Types related to tag category Schema
 
 ```txt

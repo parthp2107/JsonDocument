@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled string in Report entity Schema
 
 ```txt

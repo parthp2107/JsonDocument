@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled string in Create tag category request Schema
 
 ```txt

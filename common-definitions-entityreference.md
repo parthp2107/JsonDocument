@@ -1,3 +1,7 @@
+---
+layout: default
+title: Common-Definitions-Entityreference
+---
 # Untitled object in Table entity Schema
 
 ```txt

@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled string in Team entity Schema
 
 ```txt

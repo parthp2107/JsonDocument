@@ -1,3 +1,7 @@
+---
+layout: default
+title: Common-Definitions-Entityreference-Properties-Description
+---
 # Untitled string in Common types Schema
 
 ```txt

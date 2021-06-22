@@ -1,3 +1,7 @@
+---
+layout: default
+title: Classification-Definitions-PersonalData
+---
 # Untitled object in Data classification related types Schema
 
 ```txt

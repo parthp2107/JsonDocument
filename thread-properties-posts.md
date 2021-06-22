@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled array in Feed entity Schema
 
 ```txt

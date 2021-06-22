@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled boolean in Team entity Schema
 
 ```txt

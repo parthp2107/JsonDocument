@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled undefined type in Types related to tag category Schema
 
 ```txt

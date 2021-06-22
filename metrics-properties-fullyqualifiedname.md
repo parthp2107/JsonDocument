@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled string in Metrics entity Schema
 
 ```txt

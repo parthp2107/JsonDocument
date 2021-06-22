@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled integer in Common types Schema
 
 ```txt

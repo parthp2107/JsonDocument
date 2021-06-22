@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled integer in Usage report for an entity Schema
 
 ```txt

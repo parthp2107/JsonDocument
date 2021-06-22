@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled string in Types related to tag category Schema
 
 ```txt

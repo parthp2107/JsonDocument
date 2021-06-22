@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled undefined type in Database service entity Schema
 
 ```txt

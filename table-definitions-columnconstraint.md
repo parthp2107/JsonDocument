@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Untitled string in Table entity Schema
 
 ```txt

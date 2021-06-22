@@ -1,3 +1,7 @@
+---
+layout: default
+title: Common-Definitions-Duration
+---
 # Untitled string in Common types Schema
 
 ```txt
