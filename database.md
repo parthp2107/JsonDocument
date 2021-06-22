@@ -1,3 +1,7 @@
+---
+layout: default
+title: Database
+---
 # Database entity Schema
 
 ```txt

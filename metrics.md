@@ -1,3 +1,7 @@
+---
+layout: default
+title: Metrics
+---
 # Metrics entity Schema
 
 ```txt

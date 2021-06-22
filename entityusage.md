@@ -1,3 +1,7 @@
+---
+layout: default
+title: Entity Usage
+---
 # Usage details of an entity Schema
 
 ```txt

@@ -1,3 +1,7 @@
+---
+layout: default
+title: Pipeline
+---
 # Pipeline entity Schema
 
 ```txt

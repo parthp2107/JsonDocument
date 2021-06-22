@@ -1,3 +1,7 @@
+---
+layout: default
+title: Dashboard
+---
 # Dashboard entity Schema
 
 ```txt

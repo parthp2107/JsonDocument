@@ -1,3 +1,7 @@
+---
+layout: default
+title: Report
+---
 # Report entity Schema
 
 ```txt

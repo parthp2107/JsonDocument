@@ -1,3 +1,7 @@
+---
+layout: default
+title: Team
+---
 # Team entity Schema
 
 ```txt

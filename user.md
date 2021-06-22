@@ -1,3 +1,7 @@
+---
+layout: default
+title: User
+---
 # User entity Schema
 
 ```txt

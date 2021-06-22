@@ -1,3 +1,7 @@
+---
+layout: default
+title: Thread
+---
 # Feed entity Schema
 
 ```txt

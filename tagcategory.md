@@ -1,3 +1,7 @@
+---
+layout: default
+title: Tag Category
+---
 # Types related to tag category Schema
 
 ```txt

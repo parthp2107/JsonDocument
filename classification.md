@@ -1,3 +1,7 @@
+---
+layout: default
+title: Classification
+---
 # Data classification related types Schema
 
 ```txt

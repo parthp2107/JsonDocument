@@ -1,3 +1,7 @@
+---
+layout: default
+title: Collection Descriptor
+---
 # Schema for collection descriptor Schema
 
 ```txt

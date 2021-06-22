@@ -1,3 +1,7 @@
+---
+layout: default
+title: Usage Report
+---
 # Usage report for an entity Schema
 
 ```txt

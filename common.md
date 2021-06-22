@@ -1,3 +1,7 @@
+---
+layout: default
+title: Common
+---
 # Common types Schema
 
 ```txt

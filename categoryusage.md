@@ -1,3 +1,7 @@
+---
+layout: default
+title: Category Usage
+---
 # Usage details for an entity class Schema
 
 ```txt

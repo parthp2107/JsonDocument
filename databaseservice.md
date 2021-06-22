@@ -1,3 +1,7 @@
+---
+layout: default
+title: Database Service
+---
 # Database service entity Schema
 
 ```txt
