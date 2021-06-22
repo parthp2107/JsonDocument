@@ -39,3 +39,8 @@
 *   [Usage report for an entity](./usagereport.md "Type used for capturing and reporting usage report of an entity") – `https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/type/usageReport.json`
 
 *   [User entity](./user.md "User entity that is part of an organization") – `https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/teams/user.json`
+
+
+## Version Note
+
+The schemas linked above follow the JSON Schema Spec version: `http://json-schema.org/draft-07/schema#`
