@@ -1,23 +1,23 @@
 ---
 layout: default
 ---
-# Untitled string in Create tag category request Schema
+# Untitled string in Types related to tag category Schema
 
 ```txt
-https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/api/tags/createTagCategory.json#/properties/categoryType
+https://github.com/StreamlineData/catalog/blob/master/catalog-rest-service/src/main/resources/json/schema/entity/tags/tagCategory.json#/definitions/tagCategoryType
 ```
 
 Type of tag category
 
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                               |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [createTagCategory.json*](../out/api/tags/createTagCategory.json "open original schema") |
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                      |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------------------ |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tagCategory.json*](tagCategory.json) |
 
-## categoryType Type
+## tagCategoryType Type
 
 `string`
 
-## categoryType Constraints
+## tagCategoryType Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Tag Category
 ---
 # Types related to tag category Schema
 
@@ -12,7 +11,7 @@ Types related to tag category
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                     |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :----------------------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Forbidden             | none                | [tagCategory.json](tagCategory.md) |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Forbidden             | none                | [tagCategory.json](tagCategory.json) |
 
 ## Types related to tag category Type
 
@@ -309,7 +308,7 @@ Tags under this tag group or empty for tags at leaf level
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: unknown\[]
 
 *   cannot be null
 
@@ -317,4 +316,4 @@ Tags under this tag group or empty for tags at leaf level
 
 #### children Type
 
-`string[]`
+unknown\[]

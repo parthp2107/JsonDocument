@@ -11,7 +11,7 @@ Type of database service such as MySQL, BigQuery, Snowflake, Redshift...
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                           |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [createDatabaseService.json*](../out/api/services/createDatabaseService.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [createDatabaseService.json*](services/createDatabaseService.json) |
 
 ## serviceType Type
 
